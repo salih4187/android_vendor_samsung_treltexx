@@ -23,8 +23,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/vendor/etc/nfc/sec_s3fwrn5_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/trelte/proprietary/vendor/etc/nfc/sec_s3fwrn5_rfreg_thl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3fwrn5_rfreg_thl.bin \
-    vendor/samsung/trelte/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3fwrn5_firmware.bin \
-    vendor/samsung/trelte/proprietary/vendor/lib/hw/nfc_nci.universal5433.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.universal5433.so
+    vendor/samsung/trelte/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3fwrn5_firmware.bin
 
 # NXP - Noise Canceling
 PRODUCT_COPY_FILES += \
