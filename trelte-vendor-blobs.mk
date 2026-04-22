@@ -17,7 +17,7 @@
 # Ril Blobs
 PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
-    vendor/samsung/trelte/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so
+    vendor/samsung/trelte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so
 
 # NFC
 PRODUCT_COPY_FILES += \
